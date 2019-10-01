@@ -1,0 +1,13 @@
+.row{
+    width: 90%;
+    box-sizing: border-box;
+}
+
+.col-md-4{
+box-sizing: border-box;
+    border: 1px solid black;
+    height: 250px;
+    width: 250px;
+    margin: 10px;
+    
+}
