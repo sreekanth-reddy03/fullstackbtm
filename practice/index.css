@@ -1,14 +1,11 @@
-.container{
-    width: 90%;
-    margin: 50px auto;
+.boxer{  
+    color: #ccc;
+    height: 200px;;
+    margin-bottom: 10px;
+    padding: 80px;
+    border: 1px black solid;
+    background:#000;
 }
-.row{
-    width: 90%;
-    box-sizing: border-box;
-}
-
-.col-4{
-    border: 1px solid black;
-    height: 50px;
-    
+body{
+    background: #ccc;
 }
