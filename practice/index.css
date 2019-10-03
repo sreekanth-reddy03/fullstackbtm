@@ -1,11 +1,40 @@
-.boxer{  
-    color: #ccc;
-    height: 200px;;
-    margin-bottom: 10px;
-    padding: 80px;
-    border: 1px black solid;
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.grid div:nth-child(even){
+    background: red;
+}
+
+.grid div:nth-child(odd){
+    color: aliceblue;
     background:#000;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "title title"
+    "header header"
+    "sidebar content"
+    "footer footer";
 }
 body{
     background: #ccc;
+}
+.title{
+    grid-area:title;
+}
+.header{
+    grid-area:header;
+}
+.sidebar{
+    grid-area:sidebar;
+}
+.content{
+    grid-area:content;
+}
+.footer{
+    grid-area:footer;
 }
