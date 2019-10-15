@@ -1,0 +1,21 @@
+<div class="row">
+      <div class="container" id="col3">
+        <ul>
+          <li>Karnataka</li>
+          <li>Andhra_Pradesh</li>
+          <li>Tamil_Pradesh</li>
+          <li>Maharashtra</li>
+          
+        </ul>
+      </div>
+
+
+      .container::after {
+  width: 100%;
+  z-index: 9999;
+  position: absolute;
+  content: '';
+  top: 0;
+  right: 0;
+  background: #000;
+}
